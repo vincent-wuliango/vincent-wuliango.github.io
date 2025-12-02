@@ -1,5 +1,14 @@
 console.log('Happy developing ✨')
 
+const CONFIG = {
+    baseUrl: 'https://vincent-wuliango.github.io',
+    username: 'Vincent Wuliango'
+}
+
+function navigateToProject(projectName) {
+    window.location.href = `${CONFIG.baseUrl}/${projectName}/`;
+}
+
 // --- Page Transition Logic ---
 
 // 1. On Page Load: Fade out the curtain
